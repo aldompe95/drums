@@ -1,0 +1,32 @@
+body{
+	background-image:url('wallpaper.jpg');
+	background-size:cover;
+	background-position: 25% 14%;
+}
+kbd:after {
+  content:"\a";
+  white-space:pre;
+}
+.key{
+	color:#fff;
+	text-align: center;
+	border:1px solid #000;
+	border-radius:7px;
+	width:100%;
+	transition:all 0.07s;
+	border:0.125rem solid #ffffff;
+	margin-top:10px;
+}
+.key > kbd{
+	font-size: 40px;
+}
+.playing{
+	color:#00ff8c;
+  border-color:#15d880;
+  box-shadow:0 0 1.75rem -0.125rem #15d880;
+	transform:scale(1.1);
+}
+.playing > kbd{
+	background-color:#00ff8c; 
+}
+.pad{margin-top:2%;}
